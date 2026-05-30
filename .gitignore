@@ -1,0 +1,51 @@
+# Données utilisateur (RGPD - jamais committer)
+conversations_formabot.json
+conversations.json
+
+# Environnements Python
+.venv/
+venv/
+env/
+ENV/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches
+.cache/
+.streamlit/cache/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Outputs d'évaluation locaux (regénérables via les scripts)
+evaluation/results/_bench_*
+evaluation/results/__pycache__/
+
+# Fichiers de log / debug
+*.log
+debug.txt
+
+# Fichiers personnels (mémoire en cours de rédaction, exports, etc.)
+*.docx
+*.bak
+*~
+
+# AniReco (projet anime - hors scope FormaBot)
+app.py
+animes_2026.csv
+anime.csv
+conversations.json
+"#2025-2026_Guide_évaluations_certificatives_M.pdf"
+*.png
+*.jpg

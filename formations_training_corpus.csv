@@ -1,0 +1,374 @@
+text,intent
+Conseille-moi une formation,recommend_formation
+Quelle formation me proposerais-tu,recommend_formation
+Je cherche une formation à suivre,recommend_formation
+J'ai besoin de me former,recommend_formation
+Trouve-moi quelque chose à apprendre,recommend_formation
+Quoi suivre comme formation,recommend_formation
+Suggère-moi un programme,recommend_formation
+Tu as une formation à me conseiller,recommend_formation
+Une formation au hasard,recommend_formation
+Propose-moi un programme,recommend_formation
+Recommend a training,recommend_formation
+Suggest a course,recommend_formation
+What course should I take,recommend_formation
+Give me a training recommendation,recommend_formation
+Une formation en management,recommend_by_theme
+Je veux une formation sur le leadership,recommend_by_theme
+Conseille-moi un programme en gestion,recommend_by_theme
+Une formation pilotage d'entreprise,recommend_by_theme
+Quelque chose en communication managériale,recommend_by_theme
+Une formation sur le recrutement,recommend_by_theme
+J'aimerais me former à la gestion financière,recommend_by_theme
+Un programme en pilotage TPE,recommend_by_theme
+Une formation en management d'équipe,recommend_by_theme
+Quelque chose pour mieux piloter ma TPE,recommend_by_theme
+Je voudrais une formation en délégation,recommend_by_theme
+Une formation gestion de conflits,recommend_by_theme
+A training in management,recommend_by_theme
+Recommend a course in finance,recommend_by_theme
+A leadership training please,recommend_by_theme
+Something about team management,recommend_by_theme
+Liste toutes les formations en management,list_by_theme
+Quelles formations en gestion proposez-vous,list_by_theme
+Catalogue des formations leadership,list_by_theme
+Tous les programmes en pilotage TPE,list_by_theme
+Quelles sont les formations en communication,list_by_theme
+Donne-moi la liste des formations en recrutement,list_by_theme
+Affiche tous les programmes en finance,list_by_theme
+Quels programmes en gestion d'équipe,list_by_theme
+Liste complète des formations leadership,list_by_theme
+Inventaire des formations management,list_by_theme
+Affiche toutes les formations en pilotage,list_by_theme
+Liste les programmes de communication,list_by_theme
+Show all management courses,list_by_theme
+List all finance trainings,list_by_theme
+What leadership courses do you have,list_by_theme
+Display all training in pilotage,list_by_theme
+Quelles sont les meilleures formations,list_top
+Top 5 des formations,list_top
+Top 3 formations en management,list_top
+Donne-moi le top 10,list_top
+Les formations les plus populaires,list_top
+Top 5 programmes en gestion,list_top
+Quelles sont vos formations phares,list_top
+Top 7 formations leadership,list_top
+Meilleures formations TPE,list_top
+Quelle est la formation la mieux notée,list_top
+Top 3 programmes en pilotage,list_top
+Best training programs,list_top
+Top 5 management courses,list_top
+What are the best courses,list_top
+Top training in pilotage,list_top
+Top rated programs,list_top
+Formations en présentiel,search_by_format
+Quelles formations en distanciel,search_by_format
+Une formation hybride,search_by_format
+Du e-learning si possible,search_by_format
+Que des formations à distance,search_by_format
+Quelles formations en visio,search_by_format
+Des programmes en présentiel uniquement,search_by_format
+Formations en ligne disponibles,search_by_format
+Je préfère le présentiel,search_by_format
+Online courses,search_by_format
+In-person training only,search_by_format
+Remote training options,search_by_format
+Hybrid format available,search_by_format
+Une formation courte,search_by_duration
+Quelque chose qui dure moins d'une journée,search_by_duration
+Une formation longue,search_by_duration
+Moins de 2 jours s'il te plaît,search_by_duration
+Formations de plus de 3 jours,search_by_duration
+Quelque chose d'intensif sur une semaine,search_by_duration
+Une demi-journée maximum,search_by_duration
+Une formation rapide,search_by_duration
+Programmes courts à proposer,search_by_duration
+Short training,search_by_duration
+Long format training,search_by_duration
+Half-day training,search_by_duration
+Multi-day workshop,search_by_duration
+Une formation pour dirigeant,search_by_audience
+Quelque chose pour chef d'entreprise,search_by_audience
+Pour un manager débutant,search_by_audience
+Niveau avancé en gestion,search_by_audience
+Une formation pour artisan BTP,search_by_audience
+Pour les nouveaux managers,search_by_audience
+Programme pour TPE BTP,search_by_audience
+Pour un patron de PME,search_by_audience
+For business owners,search_by_audience
+For new managers,search_by_audience
+Beginner level training,search_by_audience
+Advanced course for executives,search_by_audience
+Formations éligibles CPF,search_by_certification
+C'est finançable par mon CPF,search_by_certification
+Une formation Qualiopi,search_by_certification
+Programmes certifiants,search_by_certification
+Formation RNCP,search_by_certification
+Quels programmes sont CPF,search_by_certification
+Formation certifiée Qualiopi,search_by_certification
+J'aimerais une certification reconnue,search_by_certification
+CPF eligible courses,search_by_certification
+Certified training programs,search_by_certification
+RNCP certified,search_by_certification
+Qualiopi approved,search_by_certification
+C'est quoi la formation Piloter sa TPE,ask_info
+Parle-moi de la formation Manager une équipe,ask_info
+Détails sur la formation Recruter et fidéliser,ask_info
+Explique-moi le programme Pilotage financier,ask_info
+À quoi sert la formation Communication managériale,ask_info
+Description de la formation Gestion de conflits,ask_info
+Présente-moi le programme Délégation,ask_info
+Raconte-moi la formation Leadership,ask_info
+Tell me about Pilotage TPE training,ask_info
+What is the Recrutement course about,ask_info
+Details of the Leadership training,ask_info
+Describe the Manager une équipe course,ask_info
+Combien coûte la formation Piloter sa TPE,ask_price
+Prix de la formation Manager une équipe,ask_price
+Tarif du programme Pilotage financier,ask_price
+Le prix de Communication managériale,ask_price
+Combien pour la formation Recrutement,ask_price
+À quel prix Délégation,ask_price
+Tarif de la formation Gestion de conflits,ask_price
+How much is the Pilotage course,ask_price
+Price of Manager une équipe,ask_price
+Cost of Leadership training,ask_price
+Combien de temps dure Piloter sa TPE,ask_duration
+Quelle est la durée de Manager une équipe,ask_duration
+Combien d'heures pour Pilotage financier,ask_duration
+La formation Communication managériale dure combien,ask_duration
+Durée du programme Délégation,ask_duration
+Cette formation dure combien de jours,ask_duration
+How long is the Pilotage training,ask_duration
+Duration of Recrutement course,ask_duration
+Combien d'heures Leadership,ask_duration
+C'est en présentiel Piloter sa TPE,ask_format
+Format de la formation Manager une équipe,ask_format
+Comment se passe Communication managériale,ask_format
+Distanciel ou présentiel Pilotage financier,ask_format
+Modalités de la formation Délégation,ask_format
+La formation Leadership est en ligne,ask_format
+Format of Pilotage course,ask_format
+Is Manager une équipe in-person,ask_format
+How is the Leadership training delivered,ask_format
+Quels sont les objectifs de Piloter sa TPE,ask_objectives
+Compétences visées par Manager une équipe,ask_objectives
+À quoi sert la formation Pilotage financier,ask_objectives
+Que vais-je apprendre dans Communication managériale,ask_objectives
+Objectifs pédagogiques de Délégation,ask_objectives
+Que vais-je savoir faire après Leadership,ask_objectives
+What will I learn in Pilotage,ask_objectives
+Objectives of Manager une équipe,ask_objectives
+Learning outcomes of Leadership,ask_objectives
+Quels thèmes proposez-vous,ask_available_themes
+Quelles catégories de formations,ask_available_themes
+Quels domaines de formation,ask_available_themes
+Liste des thèmes disponibles,ask_available_themes
+Quels sujets sont couverts,ask_available_themes
+Vos formations couvrent quoi,ask_available_themes
+Quels types de formations,ask_available_themes
+Quelles thématiques tu connais,ask_available_themes
+What themes do you offer,ask_available_themes
+Available categories,ask_available_themes
+What topics do you cover,ask_available_themes
+Salut,greeting
+Bonjour,greeting
+Bonsoir,greeting
+Hey,greeting
+Coucou,greeting
+Yo,greeting
+Hello,greeting
+Good morning,greeting
+Good evening,greeting
+Hi there,greeting
+Au revoir,goodbye
+À bientôt,goodbye
+Merci au revoir,goodbye
+Ciao,goodbye
+Bonne journée,goodbye
+À plus tard,goodbye
+À la prochaine,goodbye
+Goodbye,goodbye
+Bye,goodbye
+See you later,goodbye
+Thanks bye,goodbye
+Merci,thanks
+Merci beaucoup,thanks
+Super merci,thanks
+Parfait merci,thanks
+Génial merci,thanks
+Top merci,thanks
+Thanks,thanks
+Thank you,thanks
+Thanks a lot,thanks
+Que peux-tu faire,help
+Comment t'utiliser,help
+Aide,help
+Quelles sont tes fonctionnalités,help
+Aide-moi,help
+À quoi tu sers,help
+Help,help
+What can you do,help
+How does this work,help
+Show me what you can do,help
+Explain how to use you,help
+Je ne comprends pas,fallback
+Hein ?,fallback
+???,fallback
+Je suis perdu,fallback
+n'importe quoi,fallback
+blablabla,fallback
+azerty,fallback
+I don't understand,fallback
+What?,fallback
+nonsense,fallback
+Liste de toutes les formations,list_by_theme
+Liste de toutes vos formations,list_by_theme
+Donne-moi toutes vos formations,list_by_theme
+Je veux toutes les formations,list_by_theme
+Quelles formations proposez-vous,list_by_theme
+Quelles sont vos formations,list_by_theme
+Catalogue complet des formations,list_by_theme
+Liste complète,list_by_theme
+Toutes vos formations,list_by_theme
+Donne-moi votre catalogue,list_by_theme
+Affiche tout votre catalogue,list_by_theme
+Je veux une liste des formations que vous proposez,list_by_theme
+Vos formations,list_by_theme
+Tu proposes quoi comme formations,list_by_theme
+List all your trainings,list_by_theme
+Show me everything you offer,list_by_theme
+What trainings do you have,list_by_theme
+Your full catalog please,list_by_theme
+Tu aurais une formation en distanciel sur le management,recommend_by_theme
+Il me faut une formation courte sur la prospection,recommend_by_theme
+Une formation en présentiel sur le coaching pour mon équipe,recommend_by_theme
+J'aimerais une formation de 2 jours en communication,recommend_by_theme
+Trouve-moi une formation rapide sur le leadership,recommend_by_theme
+Il me faudrait une formation pour dirigeant en management,recommend_by_theme
+As-tu une formation en distanciel sur la gestion du stress,recommend_by_theme
+Une formation longue en commerce pour mes commerciaux,recommend_by_theme
+Il me faudrait une formation sur la communication non violente,recommend_by_theme
+Une formation courte en délégation pour un nouveau manager,recommend_by_theme
+Pour mes équipes je voudrais une formation pédagogique en management,recommend_by_theme
+Concernant le coaching qu'est-ce que tu proposes,recommend_by_theme
+Concernant le management qu'as-tu à me proposer,recommend_by_theme
+Pour le commerce tu as quoi à me proposer,recommend_by_theme
+Sur la prospection tu as quoi,recommend_by_theme
+Au sujet du leadership qu'est-ce que tu proposes,recommend_by_theme
+À propos du coaching qu'as-tu,recommend_by_theme
+J'aimerais en savoir plus sur la formation Personal branding,ask_info
+Donne-moi des détails sur Leadership,ask_info
+Raconte-moi la formation CNV,ask_info
+Décris-moi la formation Coaching commercial,ask_info
+Présente-moi en détail la formation Délégation,ask_info
+J'aimerais une description complète de la formation Manager une équipe,ask_info
+Peux-tu me détailler la formation Personal branding,ask_info
+Peux-tu me detailler la formation Manager une equipe,ask_info
+Combien coute la formation Leadership,ask_price
+Combien faut-il debourser pour Personal branding,ask_price
+Quel est le tarif de Communication non violente,ask_price
+Donne-moi le prix de la formation CNV,ask_price
+Cette formation coute combien,ask_price
+Quel budget prevoir pour Manager une equipe,ask_price
+A quel prix la formation Leadership,ask_price
+Combien je paye pour cette formation,ask_price
+What's the price of this training,ask_price
+Combien coute Coaching commercial,ask_price
+Combien d'heures dure la formation Leadership,ask_duration
+La formation CNV se deroule sur combien de jours,ask_duration
+Sur combien de temps s'etale cette formation,ask_duration
+Quelle est la duree de Personal branding,ask_duration
+Cette formation prend combien de temps,ask_duration
+Volume horaire de Manager une equipe,ask_duration
+Combien de jours pour Coaching commercial,ask_duration
+How long does this training last,ask_duration
+La formation Leadership c'est en distanciel ou presentiel,ask_format
+Manager une equipe se fait en presentiel,ask_format
+Quel format pour la formation Personal branding,ask_format
+Cette formation est-elle en visio,ask_format
+Est-ce que CNV se fait en e-learning,ask_format
+Modalites pratiques de cette formation,ask_format
+Comment se passe la formation Leadership,ask_format
+Is this training online or in-person,ask_format
+Quels sont les objectifs pedagogiques de Leadership,ask_objectives
+Que vais-je apprendre dans cette formation,ask_objectives
+Competences visees par Personal branding,ask_objectives
+Bénéfices concrets attendus de cette formation,ask_objectives
+A quoi sert vraiment la formation CNV,ask_objectives
+Apres cette formation je saurai faire quoi,ask_objectives
+Quels acquis a la fin de la formation,ask_objectives
+What skills will I learn,ask_objectives
+A bientot et bonne journee,goodbye
+Salut a plus,goodbye
+Sur ce je file,goodbye
+Bon je dois partir,goodbye
+Tres bien je m'en vais,goodbye
+Merci et a la prochaine fois,goodbye
+J'y vais merci,goodbye
+Vous proposez du distanciel,search_by_format
+Y a-t-il du presentiel uniquement,search_by_format
+Du e-learning seulement,search_by_format
+Vos formations en visio,search_by_format
+Que proposez-vous en hybride,search_by_format
+Avez-vous du tout en distanciel,search_by_format
+Je cherche uniquement du presentiel,search_by_format
+What's available remotely,search_by_format
+Une formation rapide stp,search_by_duration
+Quelque chose qui tient en une demi-journee,search_by_duration
+Un programme intensif sur la semaine,search_by_duration
+Avez-vous des formations express,search_by_duration
+Format court de quelques heures,search_by_duration
+Programme long sur plusieurs jours,search_by_duration
+Quelque chose de bref,search_by_duration
+Vraiment court comme format,search_by_duration
+Vous avez du court ou que du long,search_by_duration
+Pour quel type de profil cette formation,search_by_audience
+Vous formez plutot qui,search_by_audience
+A qui s'adresse votre catalogue,search_by_audience
+Pour quel public vos programmes,search_by_audience
+Niveau debutant accessible,search_by_audience
+Profils confirmes seulement,search_by_audience
+For which audience,search_by_audience
+Comment fonctionne ton outil,help
+Que sais-tu faire,help
+Quels services tu rends,help
+Donne-moi tes capacites,help
+Tu fais quoi exactement,help
+Affiche-moi les fonctionnalites,help
+A quoi tu sers exactement,help
+Quels sont tes domaines de competence,help
+Vos themes de formation,ask_available_themes
+Quels sont vos sujets d'expertise,ask_available_themes
+Liste tes specialites,ask_available_themes
+Quels grands domaines tu couvres,ask_available_themes
+Tes principaux thèmes,ask_available_themes
+On peut traiter quels sujets,ask_available_themes
+Quelle est ta meteo,fallback
+Tu connais Einstein,fallback
+Raconte-moi ta vie,fallback
+azerty qwerty 12345,fallback
+ASDFGH JKLM,fallback
+Pourquoi les oiseaux volent,fallback
+À tantôt,goodbye
+Cya,goodbye
+Have to go,goodbye
+Faut que j'y aille,goodbye
+À tout à l'heure,goodbye
+À demain,goodbye
+Bye bye,goodbye
+Salut on se voit plus tard,goodbye
+Allez ciao,goodbye
+Bonne soiree à plus,goodbye
+Take care,goodbye
+Catch you later,goodbye
+Quelles formations sont en visioconférence,search_by_format
+Formations sans déplacement,search_by_format
+Quelque chose à faire depuis chez moi,search_by_format
+In-classroom training,search_by_format
+Du tout en ligne,search_by_format
+Formations 100% à distance,search_by_format
+Formations dispo en webinaire,search_by_format
+Que des modules en distanciel,search_by_format
+Vous proposez des MOOC,search_by_format
+Cours à distance uniquement,search_by_format

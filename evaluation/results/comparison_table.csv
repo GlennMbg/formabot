@@ -1,0 +1,5 @@
+Modele,Accuracy (test),F1 macro (test),F1 weighted (test),Latence p50 (ms),Latence p95 (ms),Temps fit (s)
+SVM (production),0.674,0.637,0.656,11.010,23.648,0.277
+Naive Bayes,0.244,0.175,0.221,1.801,3.490,0.016
+Logistic Regression,0.384,0.354,0.387,2.481,4.283,0.096
+Random Forest,0.477,0.495,0.526,196.366,243.888,1.404

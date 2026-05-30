@@ -1,0 +1,26 @@
+# Configuration Streamlit pour FormaBot
+# Documentation : https://docs.streamlit.io/develop/api-reference/configuration/config.toml
+
+[theme]
+# Thème clair professionnel (cohérent avec l'identité ADN Potentiel)
+base = "light"
+primaryColor = "#2E5BBA"               # Bleu - boutons primaires
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"   # Sidebar
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Garder l'historique des conversations à la racine du dossier
+headless = true
+# Pas de bouton "Deploy" affiché dans l'app deployee
+runOnSave = false
+
+[browser]
+# Pas de collecte de stats par Streamlit
+gatherUsageStats = false
+
+[client]
+# Toolbar minimaliste pour les utilisateurs finaux
+toolbarMode = "minimal"
+showErrorDetails = false               # En prod : on cache la stack trace aux utilisateurs

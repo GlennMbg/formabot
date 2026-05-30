@@ -1,0 +1,6 @@
+* intégrer un user prompt dans mon projet : "tu es programmé pour…"
+* rajouter une mémoire à mon chatbot, qu'il retienne les précédents échanges
+* intégrer une interface visuelle avec streamlit pour l'application 
+
+Problématique proposée : (version finale, prête à mettre dans ton dossier)
+« Comment concevoir et déployer un pipeline NLP robuste capable de comprendre des requêtes multilingues, bruitées et hétérogènes dans un contexte métier réel, tout en garantissant performance, explicabilité, conformité réglementaire et intégration fluide dans une application web supervisée ? »

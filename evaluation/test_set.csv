@@ -1,0 +1,87 @@
+text,intent
+Tu connais un bon anime à me proposer ?,recommend_anime
+J'aimerais regarder quelque chose ce week-end des idées,recommend_anime
+Trouve-moi un titre sympa au pif,recommend_anime
+J'sais pas quoi regarder ce soir,recommend_anime
+Recommande quelque chose de marquant,recommend_anime
+Got any anime to suggest?,recommend_anime
+Pick something random for me,recommend_anime
+Need a new anime to start,recommend_anime
+Un thriller psychologique stp,recommend_by_genre
+Conseille-moi un anime mecha,recommend_by_genre
+Trouve un anime tranquille slice of life,recommend_by_genre
+J'aimerais un anime militaire,recommend_by_genre
+Need a school anime,recommend_by_genre
+Suggest something supernatural,recommend_by_genre
+Want something romantic,recommend_by_genre
+Donne moi un anime de drame,recommend_by_genre
+Affiche-moi tout le catalogue d'action,list_by_genre
+Liste tous les animes mecha,list_by_genre
+Quels animes psychologiques tu as ?,list_by_genre
+Donne-moi l'inventaire des animes d'horreur,list_by_genre
+Display the available drama animes,list_by_genre
+Show me everything in supernatural,list_by_genre
+Quels sont les animes de musique disponibles,list_by_genre
+Catalogue complet des animes shoujo,list_by_genre
+Top 7 des animes,list_top
+Quels sont les 5 meilleurs animes de drama,list_top
+Donne-moi le top 15,list_top
+Top 4 des animes shounen,list_top
+What are the best 6 animes,list_top
+Top 20 of all time,list_top
+Affiche le top 3 animes psychologique,list_top
+Best 8 supernatural anime,list_top
+Liste-moi les types de genres,ask_available_genres
+Tu fais quels genres,ask_available_genres
+Quels types d'anime tu as,ask_available_genres
+Show available categories,ask_available_genres
+What categories exist,ask_available_genres
+C'est quoi l'histoire de Naruto,ask_info
+Raconte-moi Death Note,ask_info
+Présente One Piece,ask_info
+What's Attack on Titan about,ask_info
+Décris-moi Demon Slayer,ask_info
+Dis-moi le synopsis de Bleach,ask_info
+What is Hunter x Hunter about,ask_info
+C'est quoi le genre de Naruto,ask_genre
+Death Note c'est dans quoi,ask_genre
+Dans quelle catégorie est One Piece,ask_genre
+Genre of Hunter x Hunter,ask_genre
+Demon Slayer fait partie de quel genre,ask_genre
+Naruto est à quelle place,ask_ranking
+Quelle est la note de One Piece,ask_ranking
+Demon Slayer est classé combien,ask_ranking
+What rank is Attack on Titan,ask_ranking
+Death Note a quelle note,ask_ranking
+Hunter x Hunter dans le top combien,ask_ranking
+Naruto fait combien d'épisodes,ask_episodes
+Il y en a combien dans One Piece,ask_episodes
+Demon Slayer dure combien,ask_episodes
+How many episodes for Attack on Titan,ask_episodes
+Length of Death Note,ask_episodes
+Naruto est un film,ask_type
+One Piece c'est une série,ask_type
+What format is Death Note,ask_type
+Hunter x Hunter c'est quoi comme type,ask_type
+Demon Slayer est-ce une serie,ask_type
+Salutations,greeting
+Bonsoir l'ami,greeting
+Aloha,greeting
+Greetings,greeting
+What's up,greeting
+À tantôt,goodbye
+Faut que j'y aille,goodbye
+Cya,goodbye
+Have to go,goodbye
+Top merci,thanks
+Cool merci à toi,thanks
+Many thanks,thanks
+Comment ça marche,help
+Quel est ton mode d'emploi,help
+Tu sers à quoi,help
+Explain how to use you,help
+blah blah blah,fallback
+azerty,fallback
+Pourquoi le ciel est bleu,fallback
+Quelle est la capitale du Japon,fallback
+Tell me a joke,fallback

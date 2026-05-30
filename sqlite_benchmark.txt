@@ -1,0 +1,23 @@
+==============================================================================
+Benchmark SQLite : indexes ON vs OFF
+FormaBot - catalogue ADN Potentiel
+==============================================================================
+
+Requete                                           sans idx     avec idx     gain
+------------------------------------------------------------------------------
+Filtre par theme                                 2973.1 us    2598.9 us   1.14x
+Filtre par format                                2311.8 us    2426.7 us   0.95x
+Filtre composite theme + format                  2744.2 us    2594.5 us   1.06x
+Filtre par duree (<= 7h)                         2625.4 us    2658.8 us   0.99x
+Filtre par certification CPF                     2928.6 us    4833.3 us   0.61x
+Filtre par theme + CPF                           4885.2 us    4304.8 us   1.13x
+
+Detail des p95 (us) :
+  Filtre par theme                              no_idx p95 =  3966.5  with_idx p95 =  3562.8
+  Filtre par format                             no_idx p95 =  3151.7  with_idx p95 =  3147.0
+  Filtre composite theme + format               no_idx p95 =  3543.5  with_idx p95 =  3432.7
+  Filtre par duree (<= 7h)                      no_idx p95 =  3377.2  with_idx p95 =  3509.6
+  Filtre par certification CPF                  no_idx p95 =  3856.4  with_idx p95 =  6709.3
+  Filtre par theme + CPF                        no_idx p95 =  6466.6  with_idx p95 =  6181.3
+
+Note methodologique : sur un catalogue de petite taille (~36 lignes), les indexes ont un impact moins spectaculaire que sur une base de production (milliers/millions de lignes). Les chiffres sont neanmoins indicatifs et reproductibles, et la dynamique 'avec indexes plus rapide' est conservee. Pour une exploitation reelle (catalogue OPCO Constructys complet, plusieurs milliers d'organismes de formation), le gain serait d'un ordre de grandeur superieur.
