@@ -139,7 +139,7 @@ Cette section est destinée au jury de soutenance et aux membres du jury chargé
 | Type d'accès | URL | Identifiants |
 |---|---|---|
 | Application en ligne | https://formabot-glenn-mboga.streamlit.app/ | Aucun (application ouverte au public) |
-| Dépôt GitHub | https://github.com/glenn-mboga/formabot | Public (lecture seule) |
+| Dépôt GitHub | https://github.com/GlennMbg/formabot | Public (lecture seule) |
 | Documentation technique | Ce README + dossier `evaluation/` | — |
 
 **Aucune authentification requise** : conformément au principe RGPD de minimisation, l'application ne demande aucune information personnelle et ne stocke rien côté serveur. Les conversations restent locales (fichier `conversations_formabot.json` côté client).
@@ -188,7 +188,7 @@ Les deux méthodes produisent une base strictement identique (vérifié par comp
 
 ```bash
 # 1. Cloner le dépôt depuis GitHub
-git clone https://github.com/glenn-mboga/formabot.git
+git clone https://github.com/GlennMbg/formabot.git
 cd formabot
 
 # 2. Créer un environnement virtuel
@@ -272,4 +272,4 @@ En cas de problème de reproductibilité :
 - **Auteur** : Glenn Mboga
 - **Email** : mbogaglenn@gmail.com
 - **Cabinet métier** : ADN Potentiel — contact@adnpotentiel.com — 06 61 15 80 04
-- **Issues GitHub** : https://github.com/glenn-mboga/formabot/issues (à ouvrir si bug reproductible)
+- **Issues GitHub** : https://github.com/GlennMbg/formabot/issues (à ouvrir si bug reproductible)
